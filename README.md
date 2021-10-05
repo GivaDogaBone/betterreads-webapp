@@ -1,7 +1,30 @@
-# BetterReads web app
-Companion code for the Java Brains code with me series.
+<!--- STARTEXCLUDE --->
+# BetterReads Spring App
+*30 minutes, Beginner, [Start Building](https://github.com/DataStax-Examples/betterreads-webapp#quick-start)*
 
-Prerequisites:
-1. JDK and IDE installed on your machine
-2. Register for a free hosted Cassandra instance: https://dtsx.io/2WQoLWk. You get a a DataStax Astra DB account with a generous free tier that you can use to follow along the code.
-License: APL 2.0
+Companion code for the Java Brains "code with me" series that reads data from [DataStax Astra DB](https://dtsx.io/3FkFP94). The video series is located [here](https://www.youtube.com/playlist?list=PLqq-6Pq4lTTZgMZbKkvJyr7u2repYYXE-)
+<!--- ENDEXCLUDE --->
+
+![image](https://raw.githubusercontent.com/DataStax-Examples/betterreads-webapp/master/hero.png)
+
+## Quick Start
+<!--- STARTEXCLUDE --->
+* [Signup for DataStax Astra](https://dtsx.io/3FkFP94), or login to your already existing account. 
+* [Create an Astra DB Database](https://github.com/DataStax-Examples/sample-app-template/blob/master/GETTING_STARTED.md#create-an-astra-db) if you don't already have one.
+<!--- ENDEXCLUDE --->
+* [Create an Astra DB Keyspace](https://github.com/DataStax-Examples/sample-app-template/blob/master/GETTING_STARTED.md#create-an-astra-db-keyspace) called `sag_betterreads` in your database.
+* [Generate an Application Token](https://github.com/DataStax-Examples/sample-app-template/blob/master/GETTING_STARTED.md#create-an-application-token) with the role of `Database Administrator` for the Organization that your Astra DB is in.
+* Click the 'Open in Gitpod' link: [![Open in IDE](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/DataStax-Examples/betterreads-webapp)
+* Once the app is finished launching in the Gitpod IDE, copy the `env.example` file to a file named `.env` and fill the required values in from your Application Token and [Astra DB connection settings](https://github.com/DataStax-Examples/sample-app-template/blob/master/GETTING_STARTED.md#get-your-astra-db-connection-settings).
+* Activate your environment settings by running `source .env` in the Gitpod console.
+* Get your [secure connect bundle](https://github.com/DataStax-Examples/sample-app-template/blob/master/GETTING_STARTED.md#get-an-astra-db-secure-connect-bundle) from the connect page of your database and upload it to your Gitpod instance. Rename it to `secure-connect.zip`
+* Move your `secure-connect.zip` to `src/main/resources` in the Gitpod file explorer.
+* Start the example by running `./mvnw spring-boot:run` in the Gitpod console.
+
+## Objectives
+* Provide a development example using GraphQL with Astra DB as the storage backend.
+
+## How this works
+Once the Astra DB credentials are provided, Gatsby can connect to your Astra DB's GraphQL endpoint. The webservice will be available on port 8080 once the application has been deployed.
+
+[Gatsby](https://www.gatsbyjs.org/) is a React-based, GraphQL powered, static site generator, with much of the functionality of a modern front-end framework. It brings together the best components of React, webpack, react-router, GraphQL, and other front-end tools. This is used to generate the application.
