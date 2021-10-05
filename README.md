@@ -1,6 +1,6 @@
 <!--- STARTEXCLUDE --->
 # BetterReads Spring App
-*30 minutes, Beginner, [Start Building](https://github.com/DataStax-Examples/betterreads-webapp#quick-start)*
+*180 minutes, Advanced, [Start Building](https://github.com/DataStax-Examples/betterreads-webapp#quick-start)*
 
 Companion code for the Java Brains "code with me" series that reads data from [DataStax Astra DB](https://dtsx.io/3FkFP94). The video series is located [here](https://www.youtube.com/playlist?list=PLqq-6Pq4lTTZgMZbKkvJyr7u2repYYXE-)
 <!--- ENDEXCLUDE --->
@@ -22,9 +22,7 @@ Companion code for the Java Brains "code with me" series that reads data from [D
 * Start the example by running `./mvnw spring-boot:run` in the Gitpod console.
 
 ## Objectives
-* Provide a development example using GraphQL with Astra DB as the storage backend.
+* Follow along with the Java Brains "code with me" series. The video playlist is located [here](https://www.youtube.com/playlist?list=PLqq-6Pq4lTTZgMZbKkvJyr7u2repYYXE-).
 
 ## How this works
-Once the Astra DB credentials are provided, Gatsby can connect to your Astra DB's GraphQL endpoint. The webservice will be available on port 8080 once the application has been deployed.
-
-[Gatsby](https://www.gatsbyjs.org/) is a React-based, GraphQL powered, static site generator, with much of the functionality of a modern front-end framework. It brings together the best components of React, webpack, react-router, GraphQL, and other front-end tools. This is used to generate the application.
+Once the Astra DB credentials are provided, BetterReads can connect to Astra DB.
