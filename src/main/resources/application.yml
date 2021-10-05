@@ -10,7 +10,7 @@ spring:
             client-secret: ${GITHUB_CLIENT_SECRET}
   data:
     cassandra:
-      keyspace-name: main
+      keyspace-name: ${ASTRA_DB_KEYSPACE}
       username: token
       password: ${ASTRA_DB_APPLICATION_TOKEN}
       schema-action: create-if-not-exists

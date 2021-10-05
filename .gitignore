@@ -1,4 +1,6 @@
 bfg.jar
+.env
+secure-connect.zip
 
 HELP.md
 target/
