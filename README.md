@@ -5,7 +5,7 @@
 Companion code for the Java Brains "code with me" series that reads data from [DataStax Astra DB](https://dtsx.io/3FkFP94). The video series is located [here](https://www.youtube.com/playlist?list=PLqq-6Pq4lTTZgMZbKkvJyr7u2repYYXE-)
 <!--- ENDEXCLUDE --->
 
-![image](https://raw.githubusercontent.com/DataStax-Examples/betterreads-webapp/master/hero.png)
+![image](https://raw.githubusercontent.com/DataStax-Examples/betterreads-webapp/master/hero.jpeg)
 
 ## Quick Start
 <!--- STARTEXCLUDE --->
